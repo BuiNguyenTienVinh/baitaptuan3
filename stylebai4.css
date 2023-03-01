@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+  }
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  
+  th:last-child, td:last-child {
+    text-align: right;
+  }
+ 
+  
+  
+  
+  
